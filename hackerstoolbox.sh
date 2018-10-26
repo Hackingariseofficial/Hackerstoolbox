@@ -31,7 +31,7 @@ clear
 echo -e $red"[*] (Ctrl + C ) Detected, Trying To Exit ..."
 sleep 1
 echo ""
-echo -e $yellow"[*] Thanks For Using Hak9Tools  :)"
+echo -e $yellow"[*] Thanks For Using Hackingvision  :)"
 exit
 }
 clear
