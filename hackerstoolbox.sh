@@ -74,7 +74,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
         echo "[3] ✔ splotgen                          [4] ✔ xmr-miner"
         echo "[5] ✔ snoopy                         [6] ✔ 4nonminizer"
         echo "[7] ✔ Hatcload                       [8] ✔ Booty"                        
-        echo "[q] ✔ Quit"
+        echo "[q] ✔ Quit                         [9] ✔ wimax "
         echo
         read -p "Select>: " option
         echo
@@ -202,6 +202,21 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 echo -e $red "########## Finished Booty ############"
                 echo
                 echo -e $green "【!】to go back to menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+	      9) echo ""
+                echo -e $bule "############## Wimax ###################"
+                sleep 2
+                git clone https://github.com/Hackingvisionofficial/wimax.git > /dev/null 2>&1
+                echo
+                echo -e $green "[ ✔ ] wifi hacking easy "
+                
+                
+              
+                echo -e $red "########## Done  ############"
+                echo ""
+                echo -e $green "【!】To go back the menu【!】"
                 read -p "pess any key to return ..."
                 clear
                 ;;
