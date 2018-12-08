@@ -44,7 +44,7 @@ function checkinternet {
     This Script Needs An Active Internet Connection"
     echo " GitClin Will Now Exit"
     echo && sleep 2
-    kexit
+    exit
   else
     echo " Checking For Internet: CONNECTED"
   fi
@@ -74,8 +74,8 @@ echo -e $okegreen"   ====================== Tool List =======================   
         echo "[3] ✔ splotgen                          [4] ✔ xmr-miner"
         echo "[5] ✔ snoopy                         [6] ✔ 4nonminizer"
         echo "[7] ✔ Hatcload                       [8] ✔ Booty"                        
-        echo "[q] ✔ Quit                         [9] ✔ wimax "
-        echo
+        echo "[9] ✔ wimax                          [10] ✔ E-ntel"
+        echo "[11] ✔ Captain-Brute                 [q] ✔ Quit"                         
         read -p "Select>: " option
         echo
         
@@ -194,7 +194,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 git clone https://github.com/Hackingvisionofficial/Booty.git  > /dev/null 2>&1
                 echo
                 echo -e $green "[ ✔ ] Booty Downloaded "
-                echo -e $yellow "" 
+                echo -e $yellow "wordlist mead easy" 
                 cd   /Booty
                 chmod +x cd Booty.sh
                 cd ..
@@ -211,9 +211,18 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 git clone https://github.com/Hackingvisionofficial/wimax.git > /dev/null 2>&1
                 echo
                 echo -e $green "[ ✔ ] wifi hacking easy "
-                
-                
-              
+                echo ""
+                echo -e $green "【!】To go back the menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+              10) echo ""
+                echo -e $bule "############## E-ntel ###################"
+                sleep 2
+                git clone https://github.com/CybernetiX-S3C/E-ntel.git > /dev/null 2>&1
+                echo
+                echo -e $green "[ ✔ ] email tracing "
+                echo -e $blue " credits to John Modica (CybernetiX S3C)"
                 echo -e $red "########## Done  ############"
                 echo ""
                 echo -e $green "【!】To go back the menu【!】"
@@ -221,6 +230,20 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 clear
                 ;;
 	 
+             11) echo ""
+                echo -e $bule "############## Captain-Brute ###################"
+                sleep 2
+                git clone https://github.com/CybernetiX-S3C/Captain-Brute.git > /dev/null 2>&1
+                echo
+                echo -e $green "[ ✔ ] bruteforce allways works  "
+                echo -e $blue " credits to John Modica (CybernetiX S3C)"
+                echo -e $red "########## Done  ############"
+                echo ""
+                echo -e $green "【!】To go back the menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+                
             q)  echo -e $green " HAPPY HACKING FROM THE WHOLE TEAM OF HACKING VISION  !!"
                 echo
                 exit 0 
