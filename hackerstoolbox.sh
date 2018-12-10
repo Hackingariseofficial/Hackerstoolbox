@@ -161,7 +161,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
             6)  echo ""
                 echo -e $blue "##############4nonminizer  ###################"
                 sleep 2
-                git clone https://github.com/Hackplayers/4nonimizer.git  > /dev/null 2>&1
+                git clone https://github.com/Hackingvisionofficial/4nonimizer.git  > /dev/null 2>&1
                 echo
                 echo -e $green "[ ✔ ]   Downloaded "
                 cd 
