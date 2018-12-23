@@ -243,7 +243,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 clear
                 ;;
              12) echo ""
-                echo -e $bule "############## Captain-Brute ###################"
+                echo -e $bule "############## Metasploit ###################"
                 sleep 2
                 wget Auxilus.github.io/metasploit.sh > /dev/null 2>&1
                 echo
