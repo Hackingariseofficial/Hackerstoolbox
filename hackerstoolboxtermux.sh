@@ -21,8 +21,6 @@ yellow='\e[1;33m'
 blue='\e[1;34m'
 echo ""
 sleep 2
-# Check root
-[[ `id -u` -eq 0 ]] > /dev/null 2>&1 || { echo  $red "You must be root to run the script"; echo ; exit 1; }
 
 # detect ctrl+c exiting
 trap ctrl_c INT
@@ -75,7 +73,8 @@ echo -e $okegreen"   ====================== Tool List =======================   
         echo "[5] ✔ snoopy                         [6] ✔ 4nonminizer"
         echo "[7] ✔ Hatcload                       [8] ✔ Booty"                        
         echo "[9] ✔ wimax                          [10] ✔ E-ntel"
-        echo "[11] ✔ Captain-Brute                 [q] ✔ Quit"                         
+        echo "[11] ✔ Captain-Brute                [12] ✔ metasploit"
+        echo  "[q] ✔ Quit"                         
         read -p "Select>: " option
         echo
         
@@ -237,6 +236,19 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 echo
                 echo -e $green "[ ✔ ] bruteforce allways works  "
                 echo -e $blue " credits to John Modica (CybernetiX S3C)"
+                echo -e $red "########## Done  ############"
+                echo ""
+                echo -e $green "【!】To go back the menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+             12) echo ""
+                echo -e $bule "############## Captain-Brute ###################"
+                sleep 2
+                wget Auxilus.github.io/metasploit.sh > /dev/null 2>&1
+                echo
+                echo -e $green "[ ✔ ] metaploit on termux  "
+                echo -e $blue "faster install"
                 echo -e $red "########## Done  ############"
                 echo ""
                 echo -e $green "【!】To go back the menu【!】"
