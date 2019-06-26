@@ -2,11 +2,10 @@
 #  
 #                 Hackers toolbox
 #
-#             HackersToolbox Create By : laughingman
-#             Website : https://hackingvision.com
-#             Forum : https://forum.hackingvision.com
-#             Facebook: https://www.facebook.com/hackingvision/
-#             Discord : https://discord.gg/mrbnjtu  
+#             HackersToolbox Created By : laughingman
+#             Website : https://hackingarise.com
+#             Facebook: https://www.facebook.com/Hackingarise/
+#             Discord :	https://discord.gg/XuHX9Cw
 #                                                  
 #
 
