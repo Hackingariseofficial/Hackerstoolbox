@@ -6,7 +6,7 @@
 #             Website : https://hackingarise.com
 #             Facebook: https://www.facebook.com/Hackingarise/
 #             Discord :	https://discord.gg/XuHX9Cw
-#                                                  
+#             Updated by Wolf                                    
 #
 
 #Colors
@@ -243,7 +243,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 clear
                 ;;
                 
-            q)  echo -e $green " HAPPY HACKING FROM THE WHOLE TEAM OF HACKING VISION  !!"
+            q)  echo -e $green " HAPPY HACKING FROM THE WHOLE TEAM OF HACKING A RISE  !!"
                 echo
                 exit 0 
                 ;;
