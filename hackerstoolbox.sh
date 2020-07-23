@@ -216,6 +216,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 sleep 2
                 git clone https://github.com/Hackingariseofficial/wimax.git > /dev/null 2>&1
                 cd wimax/wimax
+		chmod +x wimax.sh
 		cp wimax/wimax/wimax.sh /bin/wimax
 		echo -e $green "installing wimax to system "
                 echo -e $green "[ ✔ ] wifi hacking easy "
